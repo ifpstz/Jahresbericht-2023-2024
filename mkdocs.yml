@@ -1,4 +1,44 @@
 site_name: Jahresbericht IFP STZ 2023 - 2024
 site_url: https://github.com/ifpstz/Jahresbericht-2023-2024/
+
 theme:
   name: material
+  # Eigene Anpassungen aktivieren
+  custom_dir: overrides
+  language: de
+
+  # Berliner Logo
+  logo: docs/assets/logo/B_Logo_Baer_PW_4C.png
+
+  # Heller & dunkler Modus
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dunkelmodus aktivieren
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Hellmodus aktivieren
+
+  # Schriftarten auf Berlin Type umstellen
+  font:
+    text: "Berlin Type"
+    code: "Fira Code"
+
+  # Footer
+  features:
+    - navigation.footer
+
+  # Social Links
+  extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ifpstz/Jahresbericht-2023-2024
+
+extra_css:
+  - styles/berlin.css

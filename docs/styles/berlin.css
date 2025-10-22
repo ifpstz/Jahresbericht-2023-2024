@@ -1,0 +1,47 @@
+/* === Berlin CI Design === */
+
+/* 1. Schriftart einbinden (lokal oder extern) */
+/* === Berlin Type Regular === */
+@font-face {
+  font-family: "Berlin Type";
+  src: url("../assets/fonts/BerlinTypeWeb-Regular.woff2") format("woff2");
+  font-weight: 400; /* normal */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* === Berlin Type Bold === */
+@font-face {
+  font-family: "Berlin Type";
+  src: url("../assets/fonts/BerlinTypeWeb-Bold.woff2") format("woff2");
+  font-weight: 700; /* fett */
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Schrift anwenden */
+:root {
+  --md-text-font: "Berlin Type", Arial, sans-serif;
+}
+
+/* 3. Berliner CI Farben definieren */
+/* Light Mode */
+:root {
+  --md-primary-fg-color: #1241da;   /* Berliner Rot */
+  --md-primary-fg-color--light: #e23b42;
+  --md-primary-fg-color--dark: #a40e14;
+  --md-accent-fg-color: #333333;    /* Dunkelgrau */
+  --md-background-color: #ffffff;
+  --md-surface-color: #ffffff;
+}
+
+/* Dark Mode */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #da121a;
+  --md-primary-fg-color--light: #e23b42;
+  --md-primary-fg-color--dark: #a40e14;
+  --md-accent-fg-color: #bbbbbb;
+  --md-background-color: #1e1e1e;
+  --md-surface-color: #2c2c2c;
+}
+
