@@ -8,7 +8,7 @@ theme:
   language: de
 
   # Berliner Logo
-  logo: docs/assets/logo/B_Logo_Baer_PW_4C.png
+  logo: assets/logo/B_Logo_Baer_PW_4C.png
 
   # Heller & dunkler Modus
   palette:

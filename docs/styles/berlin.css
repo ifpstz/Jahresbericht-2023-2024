@@ -27,21 +27,30 @@
 /* 3. Berliner CI Farben definieren */
 /* Light Mode */
 :root {
-  --md-primary-fg-color: #1241da;   /* Berliner Rot */
-  --md-primary-fg-color--light: #e23b42;
-  --md-primary-fg-color--dark: #a40e14;
-  --md-accent-fg-color: #333333;    /* Dunkelgrau */
-  --md-background-color: #ffffff;
-  --md-surface-color: #ffffff;
+  --md-primary-fg-color: #000000;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
+  --md-primary-fg-color--light: #e23b42;      /* Hellerer Ton der Primärfarbe */
+  --md-primary-fg-color--dark: #a40e14;       /* Dunklerer Ton der Primärfarbe */
+  --md-accent-fg-color: #c41b31;              /* Akzentfarbe (Links, Hervorhebungen) */
+  --md-fg-color: #000000;                     /* Generelle Textfarbe */
+  --md-fg-color--secondary: #988bc2;          /* Sekundäre Textfarbe (z. B. Fußnoten, Labels) */
+  --md-background-color: #da1818;             /* Seiten-Hintergrund */
+  --md-surface-color: #f8f8f8;                /* Hintergrund für Karten, Container, Menüs */
+  --md-nav-bg-color: #cccccc;                 /* Hintergrund Navigation */
+  --md-nav-link-color: #c41b31;               /* Farbe Navigation Links */
+  --md-link-color: #000000;                   /* Linkfarbe (Textlinks) */
 }
 
 /* Dark Mode */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #da121a;
-  --md-primary-fg-color--light: #e23b42;
-  --md-primary-fg-color--dark: #a40e14;
-  --md-accent-fg-color: #bbbbbb;
-  --md-background-color: #1e1e1e;
-  --md-surface-color: #2c2c2c;
+  --md-primary-fg-color: #868686;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
+  --md-primary-fg-color--light: #e23b42;      /* Hellerer Ton der Primärfarbe */
+  --md-primary-fg-color--dark: #a40e14;       /* Dunklerer Ton der Primärfarbe */
+  --md-accent-fg-color: #c41b31;              /* Akzentfarbe (Links, Hervorhebungen) */
+  --md-fg-color: #ffffff;                     /* Generelle Textfarbe */
+  --md-fg-color--secondary: #988bc2;          /* Sekundäre Textfarbe (z. B. Fußnoten, Labels) */
+  --md-background-color: #1e1e1e;             /* Seiten-Hintergrund */
+  --md-surface-color: #2c2c2c;                /* Hintergrund für Karten, Container, Menüs */
+  --md-nav-bg-color: #ffffff;                 /* Hintergrund Navigation */
+  --md-nav-link-color: #c41b31;               /* Farbe Navigation Links */
+  --md-link-color: #ffffff;                   /* Linkfarbe (Textlinks) */
 }
-
