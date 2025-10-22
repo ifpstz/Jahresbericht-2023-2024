@@ -3,9 +3,18 @@ site_url: https://github.com/ifpstz/Jahresbericht-2023-2024/
 
 theme:
   name: material
-  # Eigene Anpassungen aktivieren
-  custom_dir: overrides
+  custom_dir: overrides  # Eigene Anpassungen aktivieren
   language: de
+
+  # Navigation
+  features:
+    - navigation.instant
+#    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer # footer
 
   # Berliner Logo
   logo: assets/logo/B_Logo_Baer_PW_4C.png
@@ -30,15 +39,12 @@ theme:
     text: "Berlin Type"
     code: "Fira Code"
 
-  # Footer
-  features:
-    - navigation.footer
-
   # Social Links
   extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/ifpstz/Jahresbericht-2023-2024
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/ifpstz/Jahresbericht-2023-2024
 
+# Eigene Styles
 extra_css:
   - styles/berlin.css

@@ -42,14 +42,14 @@
 
 /* Dark Mode */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #868686;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
+  --md-primary-fg-color: #13245b;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
   --md-primary-fg-color--light: #e23b42;      /* Hellerer Ton der Primärfarbe */
   --md-primary-fg-color--dark: #a40e14;       /* Dunklerer Ton der Primärfarbe */
   --md-accent-fg-color: #c41b31;              /* Akzentfarbe (Links, Hervorhebungen) */
   --md-fg-color: #ffffff;                     /* Generelle Textfarbe */
   --md-fg-color--secondary: #988bc2;          /* Sekundäre Textfarbe (z. B. Fußnoten, Labels) */
-  --md-background-color: #1e1e1e;             /* Seiten-Hintergrund */
-  --md-surface-color: #2c2c2c;                /* Hintergrund für Karten, Container, Menüs */
+  --md-background-color: #13245b;             /* Seiten-Hintergrund */
+  --md-surface-color: #13245b;                /* Hintergrund für Karten, Container, Menüs */
   --md-nav-bg-color: #ffffff;                 /* Hintergrund Navigation */
   --md-nav-link-color: #c41b31;               /* Farbe Navigation Links */
   --md-link-color: #ffffff;                   /* Linkfarbe (Textlinks) */
