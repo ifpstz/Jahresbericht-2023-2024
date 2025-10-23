@@ -48,6 +48,15 @@ theme:
 # Fußnoten
 markdown_extensions:
   - footnotes
+  - attr_list
+  - md_in_html
+
+# Plugins
+plugins:
+    - search
+    - pandoc:
+        combined: true
+        output_path: pdf/Jahresbericht-2023-2024.pdf
 
 # Eigene Styles
 extra_css:
