@@ -28,15 +28,15 @@
 }
 
 .md-typeset h2 {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: var(--md-primary-fg-color);
 }
 
 .md-typeset h3 {
-  font-size: 1.4rem;
+  font-size: 1.3em;
   font-weight: 600;
-  color: var(--md-primary-fg-color);
+  color: var(--md-accent-fg-color);
 }
 
 .md-typeset h4 {
@@ -62,8 +62,8 @@
   --md-primary-fg-color: #000000;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
   --md-primary-fg-color--light: #e23b42;      /* Hellerer Ton der Primärfarbe */
   --md-primary-fg-color--dark: #a40e14;       /* Dunklerer Ton der Primärfarbe */
-  --md-accent-fg-color: #c41b31;              /* Akzentfarbe (Links, Hervorhebungen) */
-  --md-fg-color: #000000;                     /* Generelle Textfarbe */
+  --md-accent-fg-color: #988bc2;              /* Akzentfarbe (Links, Hervorhebungen) */
+  --md-fg-color: #13245b;                     /* Generelle Textfarbe */
   --md-fg-color--secondary: #988bc2;          /* Sekundäre Textfarbe (z. B. Fußnoten, Labels) */
   --md-background-color: #da1818;             /* Seiten-Hintergrund */
   --md-surface-color: #c20000;                /* Hintergrund für Karten, Container, Menüs */
@@ -74,7 +74,7 @@
 
 /* Dark Mode */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #b5d4b7;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
+  --md-primary-fg-color: #67b18d;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
   --md-accent-fg-color: #357a5d;              /* Akzentfarbe (Links, Hervorhebungen) */
   --md-fg-color--secondary: #988bc2;          /* Sekundäre Textfarbe (z. B. Fußnoten, Labels) */
   --md-background-color: #13245b;             /* Seiten-Hintergrund */

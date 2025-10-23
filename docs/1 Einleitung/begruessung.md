@@ -4,6 +4,7 @@ Liebe Berlinerinnen und Berliner,
 
 liebe Engagierte in den Stadtteilzentren, Selbsthilfekontaktstellen und weiteren Projekten,
 
+
 der Jahresbericht 2023/2024 des Infrastrukturförderprogramms Stadtteilzentren zeigt eindrucksvoll, wie lebendig, vielfältig und solidarisch die Berliner Stadtteilarbeit ist. In einer Zeit, die von sozialen, wirtschaftlichen und ökologischen Herausforderungen geprägt ist, leisten die Stadtteilzentren, Selbsthilfekontaktstellen und qualitativ begleitende Projekte einen unverzichtbaren Beitrag für den Zusammenhalt in unserer Stadt.
 
 Berlin wächst – und mit ihm wachsen die Anforderungen an soziale Teilhabe, Integration und Nachbarschaft. Ob in der Unterstützung von Familien, in Projekten für Seniorinnen und Senioren, in der Demokratieförderung oder in der Stärkung des freiwilligen Engagements: Überall wird deutlich, dass Stadtteil- und Selbsthilfearbeit gelebte Demokratie und unerlässliche soziale Infrastruktur ist. Sie bietet Orte der Begegnung und Hilfe zur Selbsthilfe, gesamtstädtisch und diskriminierungsfrei für alle Menschen nutzbar.
@@ -19,5 +20,6 @@ Allen Beteiligten danke ich herzlich für ihren Beitrag zu diesem Bericht und vo
 
 Mit herzlichen Grüßen
 
-Cansel Kiziltepe
+**Cansel Kiziltepe**
+
 Senatorin für Arbeit, Soziales, Gleichstellung, Integration, Vielfalt und Antidiskriminierung
