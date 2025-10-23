@@ -45,6 +45,10 @@ theme:
       - icon: fontawesome/brands/github
         link: https://github.com/ifpstz/Jahresbericht-2023-2024
 
+# Fußnoten
+markdown_extensions:
+  - footnotes
+
 # Eigene Styles
 extra_css:
   - styles/berlin.css

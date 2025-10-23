@@ -14,9 +14,41 @@
 @font-face {
   font-family: "Berlin Type";
   src: url("../assets/fonts/BerlinTypeWeb-Bold.woff2") format("woff2");
-  font-weight: 700; /* fett */
+  font-weight: 600; /* fett */
   font-style: normal;
   font-display: swap;
+}
+
+/* Nur Überschriften */
+.md-typeset h1 {
+  font-size: 1.9rem;
+  font-weight: 600;
+  font-family: "Berlin Type", sans-serif;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h2 {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+.md-typeset h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--md-primary-fg-color);
+}
+
+/* Fließtext */
+.md-typeset p {
+  font-size: 0.8rem;
+  line-height: 1.7;
 }
 
 /* 2. Schrift anwenden */
@@ -34,19 +66,16 @@
   --md-fg-color: #000000;                     /* Generelle Textfarbe */
   --md-fg-color--secondary: #988bc2;          /* Sekundäre Textfarbe (z. B. Fußnoten, Labels) */
   --md-background-color: #da1818;             /* Seiten-Hintergrund */
-  --md-surface-color: #f8f8f8;                /* Hintergrund für Karten, Container, Menüs */
-  --md-nav-bg-color: #cccccc;                 /* Hintergrund Navigation */
+  --md-surface-color: #c20000;                /* Hintergrund für Karten, Container, Menüs */
+  --md-nav-bg-color: #35c910;                 /* Hintergrund Navigation */
   --md-nav-link-color: #c41b31;               /* Farbe Navigation Links */
   --md-link-color: #000000;                   /* Linkfarbe (Textlinks) */
 }
 
 /* Dark Mode */
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #13245b;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
-  --md-primary-fg-color--light: #e23b42;      /* Hellerer Ton der Primärfarbe */
-  --md-primary-fg-color--dark: #a40e14;       /* Dunklerer Ton der Primärfarbe */
-  --md-accent-fg-color: #c41b31;              /* Akzentfarbe (Links, Hervorhebungen) */
-  --md-fg-color: #ffffff;                     /* Generelle Textfarbe */
+  --md-primary-fg-color: #b5d4b7;             /* Primäre Farbe (z. B. Überschriften, Buttons) */
+  --md-accent-fg-color: #357a5d;              /* Akzentfarbe (Links, Hervorhebungen) */
   --md-fg-color--secondary: #988bc2;          /* Sekundäre Textfarbe (z. B. Fußnoten, Labels) */
   --md-background-color: #13245b;             /* Seiten-Hintergrund */
   --md-surface-color: #13245b;                /* Hintergrund für Karten, Container, Menüs */
