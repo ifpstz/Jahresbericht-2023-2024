@@ -15,6 +15,7 @@ theme:
     - navigation.indexes
     - navigation.top
     - navigation.footer # footer
+#    - toc.integrate # Inhaltsverzeichnis
 
   # Berliner Logo
   logo: assets/logo/B_Logo_Baer_PW_4C.png
@@ -54,10 +55,20 @@ markdown_extensions:
 # Plugins
 plugins:
     - search
-    - pandoc:
-        combined: true
-        output_path: pdf/Jahresbericht-2023-2024.pdf
+    - to-pdf:
+        author: SenASGIVA
+        copyright: Copyright © SenASGIVA 2025
+        custom_template_path: docs/styles/pdf.css
+        output_path: Jahresbericht.pdf
+#        cover_title: Title for the Cover Page
+        cover_subtitle: Infrastrukturförderprogramm Stadtteilzentren
+        cover_logo: docs/assets/images/hero.jpg
+        back_cover: false
+        toc_title: "Inhaltsverzeichnis"
+        toc_level: 3
+        ordered_chapter_level: 0
 
 # Eigene Styles
 extra_css:
   - styles/berlin.css
+  - styles/pdf.css

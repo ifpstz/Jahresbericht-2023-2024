@@ -1,3 +1,9 @@
+---
+title: "Wirkungsorientierte Berichterstattung"
+nav_order: 2
+---
+
+
 # Wirkungsorientierte Berichterstattung
 
 ## Was bedeutet Wirkungsorientierung?

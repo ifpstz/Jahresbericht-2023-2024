@@ -1,3 +1,8 @@
+---
+title: "Ressourcen, Leistungen und Wirkungen"
+nav_order: 6
+---
+
 # Ressourcen, Leistungen und Wirkungen im Berichtszeitraum 2023/2024
 ## 2023/2024 in Zahlen
 

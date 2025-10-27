@@ -1,3 +1,8 @@
+---
+title: "Richtwerte für Stadtteilzentren"
+nav_order: 5
+---
+
 # Richtwerte für Stadtteilzentren – ein neues Planungsinstrument für soziale Infrastruktur
 
 Soziale Infrastruktur – wie Kitas, Bibliotheken, Jugendfreizeiteinrichtungen oder eben Stadtteilzentren – braucht eine verlässliche Grundlage, um im Zuge von Stadtentwicklung und Bevölkerungswachstum mitgeplant werden zu können. Während für Bildungseinrichtungen seit Jahren verbindliche Gesetze und feste Maßzahlen existieren, fehlte bislang eine vergleichbare Planungsgrundlage für die Stadtteilarbeit.

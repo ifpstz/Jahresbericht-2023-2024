@@ -8,4 +8,4 @@ Hier entsteht der Jahresbericht des Infrastrukturförderprogramm Stadtteilzentre
 * Mit der **Wirkungstreppe**, den **überarbeiteten Sachberichten** und der **neuen Jahresberichtslogik** wird Wirkung sichtbar gemacht – quantitativ und qualitativ.
 * Der Fokus liegt verstärkt auf **Outcome** und **Impact**, ergänzt durch persönliche Anekdoten und erfahrbare Veränderungen im Kiez.
 
-Erfahre mehr zur [Wirkungsorientierung](1 Einleitung/wirkungberichterstattung.md)
+Erfahre mehr zur [Wirkungsorientierung](Einleitung/wirkungberichterstattung.md)
