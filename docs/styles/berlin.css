@@ -51,6 +51,14 @@
   line-height: 1.7;
 }
 
+/* ---------------------------
+   Blockquote / Zitate
+--------------------------- */
+.md-typeset blockquote {
+  color: var(--md-accent-fg-color);   /* Textfarbe */
+  border-left: 4px solid var(--md-accent-fg-color) !important; /* linke Linie */
+}
+
 /* Seitenmenü / Navigation */
 .md-nav__title {
   font-size: 0.9rem;      /* Titelgröße */

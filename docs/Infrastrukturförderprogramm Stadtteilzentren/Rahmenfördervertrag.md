@@ -1,0 +1,9 @@
+# Der Rahmenfördervertrag
+
+Der Rahmenfördervertrag (RFV) stellt die Grundlage für die Förderung von gesamtstädtisch ausgerichteten zuwendungsfinanzierten Projekten in den drei Förderprogrammen **Integriertes Sozialprogramm (ISP)**, **Integrierte Gesundheits- und Pflege-Programm - (IGPP)** und **Infrastrukturförderprogramm Stadtteilzentren (IFP STZ)** dar und regelt unter anderem die Formen und Inhalte der Zusammenarbeit der Vertragspartner und die landesseitigen Förderzusagen für den Vertragszeitraum in den Förderprogrammen einschließlich der Spitzenverbandsförderung.
+
+> Der Rahmenfördervertrag gibt den beteiligten Akteuren Sicherheit bei der Planung. Über fünf Jahre werden verbindliche Mindestsummen für die Finanzierung der Projekte festgelegt. Zum Berichtszeitraum gilt der III. Rahmenfördervertrag und der IV. Rahmenfördervertrag ist in Verhandlung.
+
+## 3. Rahmenfördervertrag (2021 bis 2025)
+
+Im Jahr 2018 vereinbarten der Senat, federführend vertreten durch die für Soziales zuständige Senatsverwaltung, sowie die Spitzenverbände der freien Wohlfahrtspflege in Berlin die Entwicklung eines 3. Rahmenfördervertrages. In der Folge nahmen die Vertragsparteien entsprechende Verhandlungen über einen Folgevertrag für den Zeitraum 2021 bis 2025 auf. Hierzu wurde eine paritätisch besetzte Vertragskommission gebildet, die wiederum förderprogrammbezogene Unterarbeitsgruppen einsetzte, in denen die förderprogrammspezifischen Aspekte behandelt wurden. Deren Ergebnisse bildeten im Jahr 2020 die Grundlage für den neuen Rahmenfördervertrag einschließlich der entsprechenden Kooperationsvereinbarungen für die genannten Förderprogramme. Mit der Unterzeichnung durch die Vertragspartner am 07.12.2020 konnte der Gesamtfinanzierungsrahmen für die im IFP STZ geförderten Angebotsbereiche für weitere fünf Jahre gesichert und 2022 sogar erweitert werden. Der gesamtstädtische Charakter wurde für alle geförderten Projekte weiterhin bejaht.

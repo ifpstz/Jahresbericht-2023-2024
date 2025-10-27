@@ -2,216 +2,213 @@
    PDF Overrides for mkdocs-with-pdf – Berlin CI Modern
 ========================== */
 
-/* ---------------------------
-   Lokale Schrift einbinden
---------------------------- */
-@font-face {
-  font-family: "Berlin Type";
-  src: url("../assets/fonts/BerlinTypeWeb-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Berlin Type";
-  src: url("../assets/fonts/BerlinTypeWeb-Bold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-@font-face {
-  font-family: "Berlin Type";
-  src: url("../assets/fonts/BerlinTypeWeb-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: swap;
-}
+@media print {
 
-/* ---------------------------
-   Farben & Fallbacks
---------------------------- */
-:root {
-  --pdf-primary: #324fa3;    /* H1/H2/H4 */
-  --pdf-accent: #7694ce;     /* H3 */
-  --pdf-text: #13245b;       /* Body Text angelehnt an Web */
-  --pdf-secondary: #bebebe;  /* Fußnoten, Labels */
-  --pdf-background: #ffffff;
-  --pdf-link: #988bc2;
-}
+  /* ---------------------------
+     Lokale Schrift einbinden
+  --------------------------- */
+  @font-face {
+    font-family: "Berlin Type";
+    src: url("../assets/fonts/BerlinTypeWeb-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Berlin Type";
+    src: url("../assets/fonts/BerlinTypeWeb-Bold.woff2") format("woff2");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Berlin Type";
+    src: url("../assets/fonts/BerlinTypeWeb-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
 
-/* ---------------------------
-   Seiten & Body
---------------------------- */
-@page { size: A4; margin: 20mm; }
+  /* ---------------------------
+     Farben & Fallbacks
+  --------------------------- */
+  :root {
+    --pdf-primary: #324fa3;    /* H1/H2/H4 */
+    --pdf-accent: #7694ce;     /* H3 */
+    --pdf-text: #13245b;       /* Body Text angelehnt an Web */
+    --pdf-secondary: #bebebe;  /* Fußnoten, Labels */
+    --pdf-background: #ffffff;
+    --pdf-link: #988bc2;
+  }
 
-html, body {
-  font-family: "Berlin Type", sans-serif;
-  font-size: 9.5pt;
-  line-height: 1.7;
-  background: var(--pdf-background);
-  color: var(--pdf-text);
-}
+  /* ---------------------------
+     Seiten & Body
+  --------------------------- */
+  @page { size: A4; margin: 20mm; }
 
-/* ---------------------------
-   Überschriften H1–H4
-   --------------------------- */
-article h1, article h2, article h3 {
-  border-bottom: 0 !important; /* Linien entfernen für Cover, TOC und Content */
-}
+  html, body {
+    font-family: "Berlin Type", sans-serif;
+    font-size: 9.5pt;
+    line-height: 1.7;
+    background: var(--pdf-background);
+    color: var(--pdf-text);
+  }
 
-.md-typeset h1 {
-  font-size: 24pt;
-  font-weight: 600;
-  color: var(--pdf-primary);
-  border: none !important;
-  margin-bottom: 0.6em;
-}
+  /* ---------------------------
+     Überschriften H1–H4
+  --------------------------- */
+  article h1, article h2, article h3 {
+    border-bottom: 0 !important; /* Linien entfernen für Cover, TOC und Content */
+  }
 
-.md-typeset h2 {
-  font-size: 16pt;
-  font-weight: 600;
-  color: var(--pdf-primary);
-  border: none !important;
-  margin-bottom: 0.5em;
-}
+  .md-typeset h1 {
+    font-size: 24pt;
+    font-weight: 600;
+    color: var(--pdf-primary);
+    border: none !important;
+    margin-bottom: 0.6em;
+  }
 
-.md-typeset h3 {
-  font-size: 12pt;
-  font-weight: 600;
-  color: var(--pdf-accent);
-  border: none !important;
-  margin-bottom: 0.5em;
-}
+  .md-typeset h2 {
+    font-size: 16pt;
+    font-weight: 600;
+    color: var(--pdf-primary);
+    border: none !important;
+    margin-bottom: 0.5em;
+  }
 
-.md-typeset h4 {
-  font-size: 9.5pt;
-  font-weight: 600;
-  color: var(--pdf-primary);
-  border: none !important;
-  margin-bottom: 0.5em;
-}
+  .md-typeset h3 {
+    font-size: 12pt;
+    font-weight: 600;
+    color: var(--pdf-accent);
+    border: none !important;
+    margin-bottom: 0.5em;
+  }
 
-/* ---------------------------
-   TOC Überschrift
---------------------------- */
-article#doc-toc > h1 {
-  margin: 0 0 2rem;
-  color: #324fa3;
-  font-size: 18pt;
-  font-weight: 600;
-  letter-spacing: -0.01em;
-  page-break-after: auto;
-  page-break-inside: auto;
-  bookmark-level: none;
-}
+  .md-typeset h4 {
+    font-size: 9.5pt;
+    font-weight: 600;
+    color: var(--pdf-primary);
+    border: none !important;
+    margin-bottom: 0.5em;
+  }
 
-/* ---------------------------
-   Fließtext
---------------------------- */
-.md-typeset p {
-  font-size: 9.5pt;
-  line-height: 1.7;
-  color: var(--pdf-text);
-  margin-bottom: 0.8em;
-}
+  /* ---------------------------
+     TOC Überschrift
+  --------------------------- */
+  article#doc-toc > h1 {
+    margin: 0 0 2rem;
+    color: #324fa3;
+    font-size: 18pt;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    page-break-after: auto;
+    page-break-inside: auto;
+    bookmark-level: none;
+  }
 
-/* ---------------------------
-   Listen / Aufzählungen
---------------------------- */
-.md-typeset ul,
-.md-typeset ol {
-  font-size: 10pt;        /* gleiche Größe wie Body-Text */
-  line-height: 1.7;
-  color: var(--pdf-text);
-  margin-left: 1.5em;     /* Einrückung für Punkte */
-  padding-left: 0;
-  list-style: disc;        /* Punkte wieder aktiv */
-}
+  /* ---------------------------
+     Fließtext
+  --------------------------- */
+  .md-typeset p {
+    font-size: 9.5pt;
+    line-height: 1.7;
+    color: var(--pdf-text);
+    margin-bottom: 0.8em;
+  }
 
-/* ---------------------------
-   Links
---------------------------- */
-a {
-  color: var(--pdf-link);
-  text-decoration: underline;
-}
+  /* ---------------------------
+     Listen / Aufzählungen
+  --------------------------- */
+  .md-typeset ul,
+  .md-typeset ol {
+    font-size: 10pt;        /* gleiche Größe wie Body-Text */
+    line-height: 1.7;
+    color: var(--pdf-text);
+    margin-left: 1.5em;     /* Einrückung für Punkte */
+    padding-left: 0;
+    list-style: disc;        /* Punkte aktivieren */
+  }
 
-/* ---------------------------
-   Tabellen & Code
---------------------------- */
-table, th, td {
-  border: 1px solid var(--pdf-secondary) !important;
-  border-collapse: collapse;
-  font-family: "Berlin Type", sans-serif;
-  font-size: 10pt;
-  page-break-inside: avoid;
-}
-pre, code {
-  font-family: monospace;
-  font-size: 10pt;
-  page-break-inside: avoid;
-}
+  /* ---------------------------
+     TOC Listen
+  --------------------------- */
+  .toc li,
+  .table-of-contents li {
+    font-size: 10pt;
+    line-height: 1.7;
+    color: var(--pdf-text);
+    list-style: none;       /* keine Punkte */
+    margin-left: 1em;
+    padding-left: 0;
+  }
 
-/* ---------------------------
-   Bilder
---------------------------- */
-.md-typeset figure, figure {
-  page-break-inside: avoid;
-  margin: 0 0 1em 0;
-}
-.md-typeset figure > img, figure > img {
-  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-}
+  /* ---------------------------
+     Links
+  --------------------------- */
+  a {
+    color: var(--pdf-link);
+    text-decoration: underline;
+  }
 
-/* ---------------------------
-   Footer
---------------------------- */
-footer.md-typeset, .pdf-footer {
-  font-size: 9pt;
-  color: var(--pdf-secondary);
-  text-align: center;
-}
+  /* ---------------------------
+     Tabellen & Code
+  --------------------------- */
+  table, th, td {
+    border: 1px solid var(--pdf-secondary) !important;
+    border-collapse: collapse;
+    font-family: "Berlin Type", sans-serif;
+    font-size: 10pt;
+    page-break-inside: avoid;
+  }
+  pre, code {
+    font-family: monospace;
+    font-size: 10pt;
+    page-break-inside: avoid;
+  }
 
-/* ---------------------------
-   Titelblatt / Hero
---------------------------- */
-.mdx-hero, .hero {
-  border-bottom: none !important;
-}
-.mdx-hero h1, .hero h1 {
-  font-size: 200pt;
-  font-weight: 600;
-  font-family: "Berlin Type", sans-serif;
-  color: var(--pdf-primary);
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0.8em;
-  border-bottom: none !important;
-  box-shadow: none !important;
-  background-image: none !important;
-  text-decoration: none !important;
-  padding-bottom: 0 !important;
-}
+  /* ---------------------------
+     Bilder
+  --------------------------- */
+  .md-typeset figure, figure {
+    page-break-inside: avoid;
+    margin: 0 0 1em 0;
+  }
+  .md-typeset figure > img, figure > img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+  }
 
-/* ---------------------------
-   Table of Contents (TOC)
---------------------------- */
-.md-typeset .toc, .table-of-contents {
-  border: none !important;
-  box-shadow: none !important;
-  background-image: none !important;
-  padding: 0;
-  margin: 0;
-}
-.toc li,
-.table-of-contents li {
-  font-size: 10pt;
-  line-height: 1.7;
-  color: var(--pdf-text);
-  list-style: none;       /* keine Punkte */
-  margin-left: 1em;
-  padding-left: 0;
+  /* ---------------------------
+     Footer
+  --------------------------- */
+  footer.md-typeset, .pdf-footer {
+    font-size: 9pt;
+    color: var(--pdf-secondary);
+    text-align: center;
+  }
+
+  /* ---------------------------
+     Titelblatt / Hero
+  --------------------------- */
+  .mdx-hero, .hero {
+    border-bottom: none !important;
+  }
+  .mdx-hero h1, .hero h1 {
+    font-size: 200pt;
+    font-weight: 600;
+    font-family: "Berlin Type", sans-serif;
+    color: var(--pdf-primary);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+    text-decoration: none !important;
+    padding-bottom: 0 !important;
+  }
+
 }

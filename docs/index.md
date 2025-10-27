@@ -3,9 +3,20 @@
 Hier entsteht der Jahresbericht des Infrastrukturförderprogramm Stadtteilzentren für die Jahre 2023 bis 2024
 
 ## Wirkungsorientierte Berichterstattung
+
 * **Wirkungsorientierung ist Leitprinzip der Stadtteilarbeit** im Infrastrukturförderprogramm Stadtteilzentrum
 * Ziel ist nicht nur die Durchführung von Angeboten, sondern **nachweisbare positive Veränderungen** im Leben der Menschen im Stadtteil.
 * Mit der **Wirkungstreppe**, den **überarbeiteten Sachberichten** und der **neuen Jahresberichtslogik** wird Wirkung sichtbar gemacht – quantitativ und qualitativ.
 * Der Fokus liegt verstärkt auf **Outcome** und **Impact**, ergänzt durch persönliche Anekdoten und erfahrbare Veränderungen im Kiez.
 
 Erfahre mehr zur [Wirkungsorientierung](Einleitung/wirkungberichterstattung.md)
+
+## Ausblick
+
+### Feedback der Stadtteilzentrum zur Finanzierung
+
+* Planungssicherheit ist die Grundlage dafür, dass Stadtteilzentren ihre Rolle als Anker und Begegnungsorte im Kiez erfüllen können.
+* Stadtteilzentren brauchen langfristige, verlässliche Finanzierungszusagen.
+* Unsicherheiten wirken direkt auf Mitarbeitende, Kooperationen und die Teilhabe der Menschen im Kiez.  
+
+Erfahre mehr zur [Feedback der Stadtteilzentren: Stabilität und Planungssicherheit für die Stadtteilarbeit](Ausblick/Trägerperspektive.md)

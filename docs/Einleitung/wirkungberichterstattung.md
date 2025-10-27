@@ -2,10 +2,6 @@
 title: "Wirkungsorientierte Berichterstattung"
 nav_order: 2
 ---
-
-
-# Wirkungsorientierte Berichterstattung
-
 ## Was bedeutet Wirkungsorientierung?
 
 Wirkungsorientierung bedeutet, dass Arbeit nicht nur danach bewertet wird, was getan wurde – sondern vor allem danach, *was dadurch bei Menschen bewirkt wurde*.
@@ -52,6 +48,7 @@ Die unteren Stufen (1–3) beschreiben, was stattgefunden hat – z. B. welche
 Die oberen Stufen (4–7) rücken in den Fokus, was sich dadurch verändert hat – in der Lebenssituation einzelner Personen, in der Nachbarschaft oder im sozialen Zusammenhalt.
 
 Dabei ist klar: Nicht jede Wirkung lässt sich messen – aber vieles lässt sich erzählen. Gerade bei den höheren Stufen sind es oft die persönlichen Geschichten, kleinen Wendepunkte oder beobachtbaren Entwicklungen, die Wirkung am besten sichtbar machen.
+
 ## Wirkungsorientierte Sachberichtsüberarbeitung der Stadtteilzentren
 
 ### Sachberichte – mehr als nur Pflicht
